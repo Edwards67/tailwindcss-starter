@@ -597,6 +597,11 @@ video {
   justify-content: center;
 }
 
+.bg-lime-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(101 163 13 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -610,11 +615,16 @@ video {
   line-height: 2.5rem;
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 /* Your Awesome Styles */
 
-/** {
-    outline: 10px dotted red;
-}*/
+* {
+  outline: 10px dotted red;
+}
 
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
