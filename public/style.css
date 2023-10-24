@@ -623,7 +623,7 @@ video {
 /* Your Awesome Styles */
 
 * {
-  outline: 10px dotted red;
+  outline: 10px solid grey;
 }
 
 @media (min-width: 768px) {
